@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 239, 114);
+}
+
+.codecontainer {
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.codeinp {
+    margin: 10px;
+    background-color: white;
+    color: grey;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: large;
+    font-family: 'Inconsolata', monospace;
+}
+
+.datacontainer {
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.datainp {
+    padding: 10px;
+    width: 80vw;
+    height: 60vh;
+    color: grey;
+    border: 2px solid grey;
+    border-radius: 10px;
+    outline: none;
+    resize: none;
+    font-size: large;
+    font-family: 'Inconsolata', monospace;
+}
+
+.datainp::-webkit-scrollbar {
+    width: 8px;
+}
+
+.datainp::-webkit-scrollbar-track {
+    margin: 5px;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.datainp::-webkit-scrollbar-thumb {
+    margin: 5px;
+    background: rgb(255, 239, 114);
+    border-radius: 10px;
+}
+
+.datainp::-webkit-scrollbar-button {
+    display: none;
+}
+
+.btn {
+    margin: 10px;
+    width: 80px;
+    background-color: white;
+    color: grey;
+    border: 2px solid rgb(231, 215, 98);
+    border-radius: 5px;
+    box-shadow: 1px 2px white;
+    font-size: large;
+    font-family: 'Inconsolata', monospace;
+}
+
+.btn:active {
+    transform: translate(1px, 2px);
+    box-shadow: 0px 0px;
+}
